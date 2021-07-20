@@ -15,6 +15,9 @@
 		9045787226A72A9B00993CAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9045787026A72A9B00993CAB /* LaunchScreen.storyboard */; };
 		9045787D26A72A9B00993CAB /* Retirement_Stonks_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9045787C26A72A9B00993CAB /* Retirement_Stonks_AppTests.swift */; };
 		9045788826A72A9B00993CAB /* Retirement_Stonks_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9045788726A72A9B00993CAB /* Retirement_Stonks_AppUITests.swift */; };
+		9045789626A72FAE00993CAB /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9045789526A72FAE00993CAB /* Customer.swift */; };
+		9045789826A7393300993CAB /* Investment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9045789726A7393300993CAB /* Investment.swift */; };
+		9045789A26A739CD00993CAB /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9045789926A739CD00993CAB /* Stock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		9045788326A72A9B00993CAB /* Retirement Stonks AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Retirement Stonks AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9045788726A72A9B00993CAB /* Retirement_Stonks_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Retirement_Stonks_AppUITests.swift; sourceTree = "<group>"; };
 		9045788926A72A9B00993CAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9045789526A72FAE00993CAB /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		9045789726A7393300993CAB /* Investment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Investment.swift; sourceTree = "<group>"; };
+		9045789926A739CD00993CAB /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 		9045785926A72A9900993CAB = {
 			isa = PBXGroup;
 			children = (
+				9045789726A7393300993CAB /* Investment.swift */,
+				9045789526A72FAE00993CAB /* Customer.swift */,
+				9045789926A739CD00993CAB /* Stock.swift */,
 				9045786426A72A9900993CAB /* Retirement Stonks App */,
 				9045787B26A72A9B00993CAB /* Retirement Stonks AppTests */,
 				9045788626A72A9B00993CAB /* Retirement Stonks AppUITests */,
@@ -260,7 +269,10 @@
 			files = (
 				9045786A26A72A9900993CAB /* ViewController.swift in Sources */,
 				9045786626A72A9900993CAB /* AppDelegate.swift in Sources */,
+				9045789A26A739CD00993CAB /* Stock.swift in Sources */,
+				9045789826A7393300993CAB /* Investment.swift in Sources */,
 				9045786826A72A9900993CAB /* SceneDelegate.swift in Sources */,
+				9045789626A72FAE00993CAB /* Customer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +449,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NX28J4MH4;
 				INFOPLIST_FILE = "Retirement Stonks App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +468,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NX28J4MH4;
 				INFOPLIST_FILE = "Retirement Stonks App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
